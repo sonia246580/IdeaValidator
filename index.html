@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta chatset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title> Idea validator </title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+
+        <main class = "container">
+
+            <section class = "hero">
+                <span class = "badge"> Product Discovery Tool </span>
+
+                <h1> Validate your statup idea before builing it.</h1>
+
+                <p class = "subtitle">
+                    Quickly assess your product idea, identify stregths, potential risks and get suggestions for your first MVP.
+                </p>
+            </section>
+
+            <section class = "form-card">
+
+                <h2> Describe your idea</h2>
+
+                <form id = "ideaForm">
+                    
+                    <div class = "field">
+                        <label for = "ideaName"> Idea name</label>
+                        <input
+                        type = "text"
+                        id = "ideaName"
+                        placeholder = "e.g. AI onboarding assistant"
+                        >
+                    </div>
+
+                    <div class = "field">
+                        <label for = "problem">
+                            What problem are you trying to solve? 
+                        </label>
+                        <textarea
+                        id = "problem"
+                        rows = "5"
+                        placeholder = "e.g. New users drop off because onboarding is too complex and they do not understand the product value quickly enough"
+                        ></textarea>
+                    </div>
+                    <div class = "field">
+                        <label for = "audience">
+                            Target audience
+                        </label>
+                        <input 
+                        type = "text"
+                        id = "audience"
+                        placeholder = "e.g. SaaS product teams, customer success teams, startup founders"
+                        >
+                        <div class = "field">
+                            <label for = "severity">
+                                How serious is the problem? 
+                            </label>
+                            <select id = "severity">
+                                <option value = " ">
+                                    Select severity
+                                </option>
+                                <option value = "Low">
+                                    Nice to have
+                                </option>
+                                <option value = "Medium">
+                                    Important
+                                </option>
+                                <option value = "High">
+                                    Critical
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type = "submit" class = "analyze-btn">
+                        Analyze Idea
+                    </button>
+                </form>
+            </section>
+
+            <section id = "result" class = "result hidden">
+
+            </section>
+        </main>
+        <script src = "script.js"></script>
+
+    </body>
+</html>
