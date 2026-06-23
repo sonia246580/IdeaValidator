@@ -11,17 +11,17 @@ form.addEventListener("submit", function (event) {
     
     let score = 0;
 
-    if (ideaName.lenght > 2) {
+    if (ideaName.length > 2) {
         score += 15;
     }
 
-    if (problem.lenght > 50) {
+    if (problem.length > 50) {
         score += 35;
-    } else if (problem.lenght > 20) {
+    } else if (problem.length > 20) {
         score += 20;
     }
 
-    if (audience.lenght > 10) {
+    if (audience.length > 10) {
         score += 25;
     }
 
