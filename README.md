@@ -1,4 +1,5 @@
 https://sonia246580.github.io/IdeaValidator/
+
 Podczas realizacji zadania wykorzystałam sztuczną inteligencję głównie jako narzędzie pomocnicze. Koncepcja projektu, jego struktura oraz proces implementacji zostały opracowane przeze mnie samodzielnie. Rola AI ograniczała się do wsparcia w rozwiązywaniu bieżących problemów technicznych, takich jak błędy w kodach HTML, CSS i JavaScript, oraz sugerowania potencjalnych rozwiązań w sytuacjach niezgodności działania systemu z założeniami.
 
 Zastosowanie sztucznej inteligencji pozwoliło na przyspieszenie procesu tworzenia projektu oraz efektywniejszą diagnostykę błędów, przy jednoczesnym zachowaniu pełnej autonomii w podejmowaniu decyzji dotyczących estetyki, funkcjonalności i kierunku rozwoju aplikacji. Dzięki takiemu podejściu mogłam skoncentrować się na realizacji założeń projektu, jednocześnie pogłębiając zrozumienie napotkanych zagadnień technicznych.
